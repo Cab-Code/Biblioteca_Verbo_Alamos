@@ -1018,7 +1018,7 @@ var buscador = document.getElementById('buscador').value;
 btnbuscar.onclick = function(e){
 
   var buscador = document.getElementById('buscador').value;
-  busqueda = buscador.toLowerCase();
+  buscador = buscador.toLowerCase();
 
 
   busquedas = removeAccents(buscador);
