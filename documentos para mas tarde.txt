@@ -1,0 +1,4 @@
+titulo_l5.innerText  = "SINGAPUR: politica y comercial y politica de desarrollo. Contraste de teorias. ";
+  autor_l5.innerText  = "Andrés Carrión Jara, Viviana Sáez Ruiz ";
+  anio_l5.innerText = "2019";
+  linkl5.href ="http://www.exteriores.gob.es/documents/fichaspais/guatemala_ficha%20pais.pdf"
