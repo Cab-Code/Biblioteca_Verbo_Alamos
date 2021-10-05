@@ -144,7 +144,7 @@ function ODS(){
   titulo_l4.innerText  = "¡Dejemos ya de manosear los ODS!";
   autor_l4.innerText  = "Alberto A.Pinillos";
   anio_l4.innerText = "2021";
-  linkl4.href ="http://biblio3.url.edu.gt/Libros/2011/codigo-de-trabajo.pdf"
+  linkl4.href ="https://diarioresponsable.com/opinion/31778-dejemos-ya-de-manosear-los-ods"
 
   titulo_l5.innerText  = "METAS DE LOS OBJETIVOS DE DESARROLLO SOSTENIBLE";
   autor_l5.innerText  = "GOBIERNO DE ESPAÑA";
@@ -153,10 +153,10 @@ function ODS(){
 
 
   imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l2.src="./imagenes/ods2.png"
+  imagen_l3.src="./imagenes/guaof3.png"
+  imagen_l4.src="https://diarioresponsable.com/images/2020/logo_dr.png"
+  imagen_l5.src="./imagenes/ods3.png"
 
 
   mostrarResultados();
@@ -209,7 +209,7 @@ function pobreza(){
   anio_l2.innerText = "2006";
   linkl2.href ="http://biblioteca.usac.edu.gt/tesis/04/04_6487.pdf"
 
-  titulo_l3.innerText  = "CERRANDO BRECAHAS PARA GENERAR UN CRECIMIENTO MÁS INCLUSIVO";
+  titulo_l3.innerText  = "CERRANDO BRECHAS PARA GENERAR UN CRECIMIENTO MÁS INCLUSIVO";
   autor_l3.innerText  = "Susana M.Sanchez, J Humberto Lopez, Kinnon Scott";
   anio_l3.innerText = "2016";
   linkl3.href ="https://www.mineco.gob.gt/sites/default/files/guatemala_diagnostico_sistematico_del_pais.pdf";
@@ -224,11 +224,11 @@ function pobreza(){
   anio_l5.innerText = "2019";
   linkl5.href ="https://repositorio.cepal.org/bitstream/handle/11362/44602/1/S1900005_es.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/pobreza1.png"
+  imagen_l2.src="./imagenes/usac.png"
+  imagen_l3.src="./imagenes/guaof3.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/pobreza2.png"
 
 
   
@@ -303,11 +303,11 @@ function salud(){
 
 
   
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/salud1.png"
+  imagen_l2.src="./imagenes/salud2.png"
+  imagen_l3.src="./imagenes/usac.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
 
 
 
@@ -379,11 +379,11 @@ function educacion(){
 
 
   
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/educacion1.png"
+  imagen_l3.src="./imagenes/educacion2.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/educacion3.png"
 
 
 
@@ -452,15 +452,16 @@ function genero(){
   titulo_l5.innerText  = "LA DESIGUALDAD DE GÉNERO UN FACTOR LIMITANTE EN LA FORMACIÓN PROFESIONAL DE LA ESTUDIANTE DE TRABAJO SOCIAL ";
   autor_l5.innerText  = "Dora A.García";
   anio_l5.innerText = "2000";
-  linkl5.href ="http://www.repositorio.usac.edu.gt/10448/1/15_1146.pdf"
+  var megalink = "http://www.repositorio.usac.edu.gt/10448/1/15_1146.pdf";
+  linkl5.href = megalink;
 
 
   
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/genero1.png"
+  imagen_l2.src="./imagenes/genero2.png"
+  imagen_l3.src="./imagenes/ods2.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/usac.png"
 
 
 
@@ -531,11 +532,11 @@ function agua(){
   anio_l5.innerText = "2008";
   linkl5.href ="http://biblioteca.usac.edu.gt/tesis/03/03_3195.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/ElPdf.png"
+  imagen_l2.src="./imagenes/usac.png"
+  imagen_l3.src="https://cepaz.org/wp-content/uploads/2019/09/6-e1569356185240.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/usac.png"
 
  
 
@@ -602,15 +603,15 @@ function energia(){
   linkl4.href ="http://biblioteca.usac.edu.gt/tesis/08/08_0917_EA.pdf"
 
   titulo_l5.innerText  = "LEY DE INCENTIVOS PARA EL DESARROLLO DE PROYECTOS DE ENERGÍA RENOVABLE ";
-  autor_l5.innerText  = "ELCONGRESO DELA REP⁄BLICA DE GUATEMALA";
+  autor_l5.innerText  = "ELCONGRESO DELA REPÙBLICA DE GUATEMALA";
   anio_l5.innerText = "2003";
   linkl5.href ="https://www.cnee.gob.gt/pdf/marco-legal/LeydeIncentivosEnerg%C3%ADaRenovable2014.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/ener1.png"
+  imagen_l2.src="./imagenes/ener2.png"
+  imagen_l3.src="./imagenes/usac.png"
+  imagen_l4.src="./imagenes/usac.png"
+  imagen_l5.src="./imagenes/ener3.png"
 
  
 
@@ -663,8 +664,8 @@ function trabajo(){
 
   titulo_l2.innerText  = "“EFECTOS PSICOSOCIALES DE LA DESVINCULACIÓN LABORAL, SIN ACOMPAÑAMIENTO PSICOLOGICO";
   autor_l2.innerText  = "Rony Barillas";
-  anio_l2.innerText = "2014";
-  linkl2.href ="https://www.galileo.edu/ids/files/2015/05/CACIF-Energia-Renovable-en-Guatemala-Presente-y-Futuro-NELSON-AMARO.pdf"
+  anio_l2.innerText = "2015";
+  linkl2.href ="http://www.repositorio.usac.edu.gt/3828/"
 
   titulo_l3.innerText  = "COVID – 19 Y EL MUNDO DEL TRABAJO: Punto de partida, respuesta y desafíos en Guatemala";
   autor_l3.innerText  = "Organizacion internacional del trabajo";
@@ -681,11 +682,11 @@ function trabajo(){
   anio_l5.innerText = "2019";
   linkl5.href ="https://www.ine.gob.gt/sistema/uploads/2020/01/15/20200115173246FCRG98JyTWVAtsV4Lmtyn43QFgTufmZg.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/usac.png"
+  imagen_l3.src="./imagenes/usac.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
 
  
 
@@ -756,11 +757,11 @@ function industria(){
   anio_l5.innerText = "2013";
   linkl5.href ="https://repositorio.cepal.org/bitstream/handle/11362/2622/1/S2012963_es.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/ElPdf.png"
+  imagen_l2.src="https://www.prensalibre.com/wp-content/uploads/2019/01/cropped-PLico.png?quality=52"
+  imagen_l3.src="./imagenes/prod2.png"
+  imagen_l4.src="./imagenes/usac.png"
+  imagen_l5.src="./imagenes/indus1.png"
 
  
 
@@ -831,11 +832,11 @@ function desigualdad(){
   anio_l5.innerText = "2017";
   linkl5.href ="https://www.icefi.org/sites/default/files/rbu_-_guatemala.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/ElPdf.png"
+  imagen_l2.src="./imagenes/ElPdf.png"
+  imagen_l3.src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sustainable_Development_Goal-es-08.jpg/1200px-Sustainable_Development_Goal-es-08.jpg"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
 
  
 
@@ -904,13 +905,13 @@ function ciudades(){
   titulo_l5.innerText  = "SINGAPUR: politica y comercial y politica de desarrollo. Contraste de teorias. ";
   autor_l5.innerText  = "Andrés Carrión Jara, Viviana Sáez Ruiz ";
   anio_l5.innerText = "2019";
-  linkl5.href ="http://www.exteriores.gob.es/documents/fichaspais/guatemala_ficha%20pais.pdf"
+  linkl5.href ="http://www.tesis.uchile.cl/tesis/uchile/2007/carrion_a/sources/carrion_a.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/ciudades1.png"
+  imagen_l3.src="./imagenes/ciudades2.png"
+  imagen_l4.src="./imagenes/usac.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
 
  
 
@@ -962,31 +963,31 @@ function produccion(){
   anio_l.innerText = "2015";
   linkl.href ="http://biblioteca.usac.edu.gt/tesis/03/03_5191.pdf"
 
-  titulo_l2.innerText  = "FOMENTEMOS LA INNOVACIÓN EN GUATEMALA";
-  autor_l2.innerText  = "Juan C. Zapata";
-  anio_l2.innerText = "2021";
-  linkl2.href ="https://www.prensalibre.com/opinion/columnasdiarias/fomentemos-la-innovacion-en-guatemala/"
+  titulo_l2.innerText  = "EL CAFÈ GUATEMALTECO: Un enfoque en el mercado mundial y su productividad";
+  autor_l2.innerText  = "Francisco Fabian Juárez";
+  anio_l2.innerText = "2018";
+  linkl2.href ="https://camcig.org/userfiles/2019/01/2018.-DICE-El-caf%C3%A9-guatemalteco-un-enfonque-en-el-mercado-mundial-y-su-productividad-1.pdf"
 
   titulo_l3.innerText  = "PLAN NACIONAL DE INNOVACIÓN Y DESARROLLO";
   autor_l3.innerText  = "Alejandro Giammattei";
   anio_l3.innerText = "2020";
   linkl3.href ="https://vamosguatemala.com/wp-content/uploads/2019/03/Alejandro_Giammattei_Plan_Nacional_de_Innovacion_y_Desarrollo.pdf"
 
-  titulo_l4.innerText  = "DISEÑO DE INVESTIGACIÓN DE LA EVALUACIÓN TÉCNICA-ECONÓMICA DE LOS EFECTOS DE LA INTRODUCCIÓN DE ENERGÍAS RENOVABLES NO CONVENCIONALES AL SISTEMA NACIONAL INTERCONECTADO DE GUATEMALA ";
-  autor_l4.innerText  = "Josué Ramírez";
-  anio_l4.innerText = "2016";
-  linkl4.href ="http://biblioteca.usac.edu.gt/tesis/08/08_0917_EA.pdf"
+  titulo_l4.innerText  = "GUATEMALA EN CIFRAS";
+  autor_l4.innerText  = "Banco De Guatemala";
+  anio_l4.innerText = "2020";
+  linkl4.href ="https://www.banguat.gob.gt/sites/default/files/banguat/Publica/guatemala_en_cifras_2020.pdf"
 
-  titulo_l5.innerText  = "SISTEMAS DE INNOVACION EN CENTROAMERICA";
-  autor_l5.innerText  = "Naciones Unidas ";
-  anio_l5.innerText = "2013";
-  linkl5.href ="https://repositorio.cepal.org/bitstream/handle/11362/2622/1/S2012963_es.pdf"
+  titulo_l5.innerText  = "ADN ECONOMICO DE GUATEMALA";
+  autor_l5.innerText  = "Banco Mundial";
+  anio_l5.innerText = "2014";
+  linkl5.href ="http://onu.org.gt/wp-content/uploads/2016/04/adn-guatemala-BM.pdf"
 
-  imagen_l.src="./imagenes/ods1.png"
-  imagen_l2.src="./imagenes/guaof4.png"
-  imagen_l3.src="./imagenes/guaof4.png"
-  imagen_l4.src="./imagenes/guaof4.png"
-  imagen_l5.src="./imagenes/guaof4.png"
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/prod1.png"
+  imagen_l3.src="./imagenes/prod2.png"
+  imagen_l4.src="./imagenes/cifrasg.png"
+  imagen_l5.src="./imagenes/prod3.png"
 
  
 
@@ -996,7 +997,690 @@ function produccion(){
   
 
 }
+function clima(){
 
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "ANTECEDENTES Y CONTEXTO DEL CAMBIO CLIMÁTICO EN GUATEMALA";
+  autor_l.innerText  = "Gabriela Alfaro Marroquín y Rosario Gómez";
+  anio_l.innerText = "2019";
+  linkl.href ="https://sgccc.org.gt/wp-content/uploads/2019/07/1RepCCGuaCap1.pdf"
+
+  titulo_l2.innerText  = "POLÍTICA NACIONAL DE CAMBIO CLIMÁTICO";
+  autor_l2.innerText  = "Ministerio de Ambiente y Recursos Naturales";
+  anio_l2.innerText = "2009";
+  linkl2.href ="https://www.marn.gob.gt/Multimedios/18647.pdf"
+
+  titulo_l3.innerText  = "LA ENERGÍA RENOVABLE EN GUATEMALA: Presente y futuro";
+  autor_l3.innerText  = "Nelson Amaro";
+  anio_l3.innerText = "2014";
+  linkl3.href ="https://www.galileo.edu/ids/files/2015/05/CACIF-Energia-Renovable-en-Guatemala-Presente-y-Futuro-NELSON-AMARO.pdf"
+
+  titulo_l4.innerText  = "GUATEMALA EN CIFRAS";
+  autor_l4.innerText  = "Banco De Guatemala";
+  anio_l4.innerText = "2020";
+  linkl4.href ="https://www.banguat.gob.gt/sites/default/files/banguat/Publica/guatemala_en_cifras_2020.pdf"
+
+  titulo_l5.innerText  = "COMUNICADO DE PRENSA IPCC";
+  autor_l5.innerText  = "IPCC";
+  anio_l5.innerText = "2021";
+  linkl5.href ="https://www.ipcc.ch/site/assets/uploads/2021/08/IPCC_WGI-AR6-Press-Release-Final_es.pdf"
+
+  imagen_l.src="./imagenes/clima1.png"
+  imagen_l2.src="./imagenes/ElPdf.png"
+  imagen_l3.src="./imagenes/ener2.png"
+  imagen_l4.src="./imagenes/cifrasg.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function submarina(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "LA PREVENCION Y CONTROL DE LA CONTAMINACIÓN DEL RECURSO HÍDRICO DE GUATEMALA, NECECIDAD DE UNA REGLAMENTACIÓN EFECTIVA";
+  autor_l.innerText  = "Diana Fernández";
+  anio_l.innerText = "2008";
+  linkl.href ="http://biblioteca.usac.edu.gt/tesis/04/04_7553.pdf"
+
+  titulo_l2.innerText  = "AGUA Y ALIMENTO";
+  autor_l2.innerText  = "Peru Ministerio Del Ambiente";
+  anio_l2.innerText = "2016";
+  linkl2.href ="https://www.minam.gob.pe/educacion/wp-content/uploads/sites/20/2017/02/Publicaciones-3.-Texto-de-consulta-M%c3%b3dulo-3.pdf"
+
+  titulo_l3.innerText  = "PANEL CIENTÍFICO-TÉCNICO DE SEGUIMIENTO DE LA POLÍTICA DE AGUAS";
+  autor_l3.innerText  = "Nelson Amaro";
+  anio_l3.innerText = "2014";
+  linkl3.href ="https://fnca.eu/phocadownload/P.CIENTIFICO/inf_contaminacion.pdf"
+
+  titulo_l4.innerText  = "LA CONTAMINACIÓN DEL AGUA DE LOS RÍOS POR LOS INGENIOS AZUCAREROS Y SU IMPACTO EN EL MEDIO AMBIENTE, DURANTE EL TIEMPO DE ZAFRA O PRODUCCIÓN DE AZÚCAR EN EL MUNICIPIO DE ESCUINTLA DEPARTAMENTO DE ESCUINTlA";
+  autor_l4.innerText  = "Hoffman Romeo Castillo";
+  anio_l4.innerText = "2006";
+  linkl4.href ="http://biblioteca.usac.edu.gt/tesis/04/04_5985.pdf"
+
+  titulo_l5.innerText  = "OCÉANOS Y ECOSISTEMAS MARINO-COSTEROS";
+  autor_l5.innerText  = "Silja Ramírez y José Roberto";
+  anio_l5.innerText = "2019";
+  linkl5.href ="https://sgccc.org.gt/wp-content/uploads/2019/07/1RepCCGuaCap8.pdf"
+
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/agua1.png"
+  imagen_l3.src="./imagenes/ElPdf.png"
+  imagen_l4.src="./imagenes/usac.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function terrestres(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "CENTRO DE PROTECCIÓN DE FAUNA EN PELIGRO DE EXTINCIÓN, REGIÓN ORIENTE";
+  autor_l.innerText  = "Maria José Valdez";
+  anio_l.innerText = "2013";
+  linkl.href ="http://biblioteca.usac.edu.gt/tesis/02/02_3647.pdf"
+
+  titulo_l2.innerText  = "LA CONTAMINACION DEL SUELO: una realidad oculta";
+  autor_l2.innerText  = "Natalia Rodríguez Eugenio, Michael McLaughlin, Daniel Pennock";
+  anio_l2.innerText = "2019";
+  linkl2.href ="http://www.fao.org/3/I9183ES/i9183es.pdf"
+
+  titulo_l3.innerText  = "OBJETIVO 15: VIDA DE ECOSISTEMAS TERRESTRES";
+  autor_l3.innerText  = "Programa de las Naciones Unidas Para el Desarrollo";
+  anio_l3.innerText = "2018";
+  linkl3.href ="https://www1.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html"
+
+  titulo_l4.innerText  = "EL ESTADO DE LOS BOSQUES DEL MUNDO";
+  autor_l4.innerText  = "ONU programa para el medio ambiente";
+  anio_l4.innerText = "2020";
+  linkl4.href ="http://www.fao.org/3/ca8642es/CA8642ES.pdf"
+
+  titulo_l5.innerText  = "EVALUACION DEL SISTEMA DE CLASIFICACION DE TIPOS DE BOSQUE DEL INVENTARIO FORESTAL NACIONAL 2002-2003 ";
+  autor_l5.innerText  = "Karen Denisse Aguilar";
+  anio_l5.innerText = "2005";
+  linkl5.href ="http://biblioteca.usac.edu.gt/tesis/01/01_2164.pdf"
+
+  imagen_l.src="./imagenes/usac.png"
+  imagen_l2.src="./imagenes/terra1.png"
+  imagen_l3.src="https://desarrollohumano.org.gt/wp-content/uploads/2016/04/15-VidadeEcosistemas.jpg"
+  imagen_l4.src="./imagenes/terra2.png"
+  imagen_l5.src="./imagenes/usac.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function paz(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "LOS ACUERDOS DE PAZ EN GUATEMALA";
+  autor_l.innerText  = "Secretaría de la Paz Presidencia de la República";
+  anio_l.innerText = "2006";
+  linkl.href ="http://www.muniguate.com/images/2011/user01/fuentes_monumentos/manitas_paz/acuerdosdepazenguatemala.pdf"
+
+  titulo_l2.innerText  = "ESTUDIO CRÍTICO DEL AVANCE O ESTANCAMIENTO EN EL CUMPLIMIENTO DEL ACUERDO GLOBAL DE DERECHOS HUMANOS EN GUATEMALA ENFOCADO AL DERECHO A LA VIDA";
+  autor_l2.innerText  = "William Mazariegos";
+  anio_l2.innerText = "2009";
+  linkl2.href ="http://biblioteca.usac.edu.gt/tesis/04/04_8089.pdf"
+
+  titulo_l3.innerText  = "OBJETIVO 16: PAZ, JUSTICIA E INSTITUCIONES SOLIDAS";
+  autor_l3.innerText  = "Programa de las Naciones Unidas Para el Desarrollo";
+  anio_l3.innerText = "2018";
+  linkl3.href ="https://www1.undp.org/content/undp/es/home/sustainable-development-goals/goal-16-peace-justice-and-strong-institutions.html"
+
+  titulo_l4.innerText  = "La PAZ COMIENZA POR UNO MISMO";
+  autor_l4.innerText  = "Bouché Peris, J. Henri";
+  anio_l4.innerText = "2003";
+  linkl4.href ="https://www.redalyc.org/pdf/706/70600602.pdf"
+
+  titulo_l5.innerText  = "PAZ SOCIAL Y CULTURA DE PAZ";
+  autor_l5.innerText  = "Virginia Arango";
+  anio_l5.innerText = "2007";
+  linkl5.href ="https://www.corteidh.or.cr/tablas/30445.pdf"
+
+  imagen_l.src="./imagenes/paz1.png"
+  imagen_l2.src="./imagenes/usac.png"
+  imagen_l3.src="https://www1.undp.org/content/dam/undp/sdg/tiles/sdg-es-16.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function alianzas(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "LOS ACUERDOS DE PAZ EN GUATEMALA";
+  autor_l.innerText  = "Secretaría de la Paz Presidencia de la República";
+  anio_l.innerText = "2006";
+  linkl.href ="http://www.muniguate.com/images/2011/user01/fuentes_monumentos/manitas_paz/acuerdosdepazenguatemala.pdf"
+
+  titulo_l2.innerText  = "DIAGNÓSTICO DEL FUNCIONAMIENTO DE LA DIRECCIÒN DE COMUNICACIÓN DEL MINISTERIO DE RELACIONES EXTERIORES";
+  autor_l2.innerText  = "LESBIA MAGALY BOLVITO ARDÓN DE POLO";
+  anio_l2.innerText = "2015";
+  linkl2.href ="http://www.repositorio.usac.edu.gt/600/1/16_1188.pdf"
+
+  titulo_l3.innerText  = "CONFLICTOS ARMADOS Y CONSTRUCCIÓN DE PAZ. DE LA TEORÍA A LAS POLÍTICAS INTERNACIONALES DE PAZ EN LA POSGUERRA FRÍA";
+  autor_l3.innerText  = "Oscar Mauricio Castaño";
+  anio_l3.innerText = "2015";
+  linkl3.href ="https://www.redalyc.org/pdf/461/46127565004.pdf"
+
+  titulo_l4.innerText  = "PLAN ESTRATÉGICO 2013 - 2015 ACTUALIZADO A ENERO DEL 2013 ";
+  autor_l4.innerText  = "Ministerio de Relaciones Exteriores";
+  anio_l4.innerText = "2013";
+  linkl4.href ="https://www.minex.gob.gt/MDAA/DATA/MDAA/20130326163200728Plan%20Estrategico%20MINEX%202013-2015%20actualizado%20a%20enero%202013.pdf"
+
+  titulo_l5.innerText  = "ALIANZAS PARA EL DESARROLLO DE INFRAESTRUCTURA ECONÓMICA";
+  autor_l5.innerText  = "ANADIE";
+  anio_l5.innerText = "2018";
+  linkl5.href ="http://ceur.usac.edu.gt/eventos/Gobernanza-Publica/17-04-Alianzas-para-el-desarrollo-de-infraestructura-economica-Enrique-Godoy.pdf"
+
+  imagen_l.src="./imagenes/paz1.png"
+  imagen_l2.src="./imagenes/usac.png"
+  imagen_l3.src="./imagenes/ElPdf.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function desnutricion(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "DESNUTRICIÓN EN GUATEMALA  2009";
+  autor_l.innerText  = "Organizacion Panamericana de la Salud";
+  anio_l.innerText = "2009";
+  linkl.href ="https://www.paho.org/gut/dmdocuments/DESNUTRICION_EN_GUATEMALA-2009.pdf"
+
+  titulo_l2.innerText  = "ANALISIS DE SITUACION, NUTRICIONAL DE GUATEMALA";
+  autor_l2.innerText  = "SESAN";
+  anio_l2.innerText = "2017";
+  linkl2.href ="http://www.sesan.gob.gt/wordpress/wp-content/uploads/2018/05/Situacion-SAN-Guatemala-dia-1.pdf"
+
+  titulo_l3.innerText  = "¿QUE ES LA DESNUTRICION?";
+  autor_l3.innerText  = "UNICEF";
+  anio_l3.innerText = "2020";
+  linkl3.href ="https://www.unicef.es/noticia/que-es-la-desnutricion"
+
+  titulo_l4.innerText  = "NIÑOS, ALIMENTOS Y NUTRICIÒN";
+  autor_l4.innerText  = "UNICEF";
+  anio_l4.innerText = "2019";
+  linkl4.href ="https://www.unicef.org/media/62486/file/Estado-mundial-de-la-infancia-2019.pdf"
+
+  titulo_l5.innerText  = "DESNUTRICIÒN INFANTIL EN AMERICALATINA Y EL CARIBE";
+  autor_l5.innerText  = "CEPAL";
+  anio_l5.innerText = "2006";
+  linkl5.href ="http://www.oda-alc.org/documentos/1367000434.pdf"
+
+  imagen_l.src="./imagenes/ElPdf.png"
+  imagen_l2.src="./imagenes/nutri1.png"
+  imagen_l3.src="https://static.guiaongs.org/wp-content/uploads/2015/09/unicef_destacada.png"
+  imagen_l4.src="./imagenes/nutri2.png"
+  imagen_l5.src="./imagenes/nutri3.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function tecnologia(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "CIENCIA, TECNOLOGÍA Y SOCIEDAD EN AMÉRICA LATINA: ";
+  autor_l.innerText  = "Rosalba Casas, Tania Perez";
+  anio_l.innerText = "2019";
+  linkl.href ="http://biblioteca.clacso.edu.ar/clacso/gt/20190905052402/Ciencia_tecnologia_sociedad.pdf"
+
+  titulo_l2.innerText  = "INTRODUCCIÒN A LA BIOTECNOLOGIA";
+  autor_l2.innerText  = "William J. Thieman, Michael A. Palladino";
+  anio_l2.innerText = "2010";
+  linkl2.href ="http://siar.minam.gob.pe/puno/sites/default/files/archivos/public/docs/copia_de_thiebiot.pdf"
+
+  titulo_l3.innerText  = "LAS TIC, LAS TAC Y LAS TEP: Innovacion educativa en la era conceptual";
+  autor_l3.innerText  = "Edimer Latorre, Katherine Castro, Iván Potes";
+  anio_l3.innerText = "2018";
+  linkl3.href ="https://repository.usergioarboleda.edu.co/bitstream/handle/11232/1219/TIC%20TAC%20TEP.pdf?sequence=1"
+
+  titulo_l4.innerText  = "INTRODUCCIÒN A LA INGENIERIA";
+  autor_l4.innerText  = "Oscar González, Martín Villamil";
+  anio_l4.innerText = "2015";
+  linkl4.href ="https://www.ecoeediciones.com/wp-content/uploads/2015/08/Introduccion-a-la-ingenieria.pdf"
+
+  titulo_l5.innerText  = "DESARROLLO DE APLICACIONES TECNOLÒGICAS: un desafío interdisciplinario en aulas de ciencias y tecnologías básicas";
+  autor_l5.innerText  = "Alberto, Malva; Frausin, Adriana; Castellaro, Marta";
+  anio_l5.innerText = "2013";
+  linkl5.href ="http://conaiisi.unsl.edu.ar/2013/213-432-1-DR.pdf"
+
+  imagen_l.src="./imagenes/tecno1.png"
+  imagen_l2.src="./imagenes/tecno2.png"
+  imagen_l3.src="./imagenes/tecno3.png"
+  imagen_l4.src="./imagenes/tecno4.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function diseño(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "LAS LEYES DE LA SIMPLICIDAD";
+  autor_l.innerText  = "Jhon Maeda";
+  anio_l.innerText = "2006";
+  linkl.href ="https://mediostamayo.files.wordpress.com/20123/08/librochic.pdf"
+
+  titulo_l2.innerText  = "GUIA PRACTICA: diseño industrial";
+  autor_l2.innerText  = "Juan Manuel Ubiergo";
+  anio_l2.innerText = "2003";
+  linkl2.href ="https://www.aragon.es/documents/20127/674325/10_Guia_practica_diseno_industrial_Juan_Manuel_Ubiergo_Castillo_2003.pdf/391990b7-0bce-261e-ea0a-56c97d964dca"
+
+  titulo_l3.innerText  = "EL DISEÑADOR INDUSTRIAL Y LAS PRÀCTICAS DE DISEÑO";
+  autor_l3.innerText  = "Natalia A. Abad";
+  anio_l3.innerText = "2011";
+  linkl3.href ="https://repository.javeriana.edu.co/bitstream/handle/10554/4150/tesis392.pdf?sequenc"
+
+  titulo_l4.innerText  = "EL DISEÑO GRÁFICO EN LA CREACIÓN DE PERSONAJES PARA LA PUBLICIDAD";
+  autor_l4.innerText  = "Irene Méndez";
+  anio_l4.innerText = "2010";
+  linkl4.href ="http://biblioteca.usac.edu.gt/tesis/02/02_2567.pdf"
+
+  titulo_l5.innerText  = "DESARROLLO DE APLICACIONES TECNOLÒGICAS: un desafío interdisciplinario en aulas de ciencias y tecnologías básicas";
+  autor_l5.innerText  = "Alberto, Malva; Frausin, Adriana; Castellaro, Marta";
+  anio_l5.innerText = "2013";
+  linkl5.href ="http://conaiisi.unsl.edu.ar/2013/213-432-1-DR.pdf"
+
+  imagen_l.src="./imagenes/diseño1.png"
+  imagen_l2.src="./imagenes/diseño2.png"
+  imagen_l3.src="./imagenes/ElPdf.png"
+  imagen_l4.src="./imagenes/ElPdf.png"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
+function valores(){
+
+  var titulo_l = document.getElementById("titulo_l");
+  var autor_l = document.getElementById('autor_l');
+  var anio_l = document.getElementById('anio_l');
+  var linkl = document.getElementById('linkl');
+  var imagen_l = document.getElementById('imagen_l');
+
+    //parte 2
+  var titulo_l2 = document.getElementById("titulo_l2");
+  var autor_l2 = document.getElementById('autor_l2');
+  var anio_l2 = document.getElementById('anio_l2');
+  var linkl2 = document.getElementById('linkl2');
+  var imagen_l2 = document.getElementById('imagen_l2');
+  //parte 3
+  var titulo_l3 = document.getElementById("titulo_l3");
+  var autor_l3 = document.getElementById('autor_l3');
+  var anio_l3 = document.getElementById('anio_l3');
+  var linkl3 = document.getElementById('linkl3');
+  var imagen_l3 = document.getElementById('imagen_l3');
+  //parte 4
+  var titulo_l4 = document.getElementById("titulo_l4");
+  var autor_l4 = document.getElementById('autor_l4');
+  var anio_l4 = document.getElementById('anio_l4');
+  var linkl4 = document.getElementById('linkl4');
+  var imagen_l4 = document.getElementById('imagen_l4');
+  //parte 5
+  var titulo_l5 = document.getElementById("titulo_l5");
+  var autor_l5 = document.getElementById('autor_l5');
+  var anio_l5 = document.getElementById('anio_l5');
+  var linkl5 = document.getElementById('linkl5');
+  var imagen_l5 = document.getElementById('imagen_l5');
+  //parte extra
+  var MasResultados = document.getElementById('resultLink');
+
+  // -----------------------------------asignacion de resultados---------------------------------------------
+  
+  titulo_l.innerText  = "INTRODUCCION A LOS VALORES";
+  autor_l.innerText  = "Antonio Armosino";
+  anio_l.innerText = "2006";
+  linkl.href ="http://biblio3.url.edu.gt/Libros/2011/in_val.pdf"
+
+  titulo_l2.innerText  = "FILOSOFÍA, VALORES, ÉTICA, MORAL E  IDENTIDAD";
+  autor_l2.innerText  = "Luis Martínez, Hilda Murillo, Diana Martínez";
+  anio_l2.innerText = "2003";
+  linkl2.href ="https://redie.mx/librosyrevistas/libros/eticayvalores.pdf"
+
+  titulo_l3.innerText  = "FORTALECEMOS VALORES, PRINCIPIOS Y VIRTUDES";
+  autor_l3.innerText  = "UNEFCO, UNODC, Ministerio de Justicia y Transparencia Institucional";
+  anio_l3.innerText = "2020";
+  linkl3.href ="https://www.unodc.org/documents/bolivia/Cuaderno_de_Formacion_Continua_1.pdf"
+
+  titulo_l4.innerText  = "Biblia";
+  autor_l4.innerText  = "Reina valera 1960";
+  anio_l4.innerText = "----";
+  linkl4.href ="https://www.biblegateway.com/versions/Reina-Valera-1960-RVR1960-Biblia/#booklist"
+
+  titulo_l5.innerText  = "La moral: ¿innata o adquirida?";
+  autor_l5.innerText  = "Nelson Molina Ramírez";
+  anio_l5.innerText = "2013";
+  linkl5.href ="https://www.redalyc.org/pdf/1892/189228429007.pdf"
+
+  imagen_l.src="./imagenes/valores1.png"
+  imagen_l2.src="./imagenes/ElPdf.png"
+  imagen_l3.src="./imagenes/ElPdf.png"
+  imagen_l4.src="https://img2.freepng.es/20180926/iqg/kisspng-bible-app-community-shatters-records-during-2-12-5bab6946ac3ac2.3390196915379602627055.jpg"
+  imagen_l5.src="./imagenes/ElPdf.png"
+
+ 
+
+
+  mostrarResultados();
+
+  
+
+}
 // inicio del sistema
 var iniciarSecion = document.getElementById('IniciarSesion');
 var buscar = document.getElementById('buscar');
@@ -1007,7 +1691,27 @@ var libro3 = document.getElementById('resultado3');
 var libro4 = document.getElementById('resultado4');
 var libro5 = document.getElementById('resultado5');
 var btnbuscar = document.getElementById('buscar');
+var btnabrir = document.getElementById('menuDespegable');
+var btncerrar = document.getElementById('cerrar');
 var buscador = document.getElementById('buscador').value;
+
+function presion_enter(){
+  enter = event.keyCode;
+  if(enter == 13){
+
+    var buscador = document.getElementById('buscador').value;
+    buscador = buscador.toLowerCase();
+  
+  
+    busquedas = removeAccents(buscador);
+
+  desglosarBusquedas();
+
+  }
+}
+
+
+
 
 /*iniciarSecion.onclick = function(e){
 
@@ -1015,8 +1719,18 @@ var buscador = document.getElementById('buscador').value;
  
 
 }*/
-btnbuscar.onclick = function(e){
+btnabrir.onclick = function(e){
+  var autor = "autor: Estuardo Cabrera B-)"
+  console.log(autor)
+  abrir()
+}
+btncerrar.onclick = function(e){
 
+  console.log("1 de octubre de 2021")
+  cerrar()
+}
+
+btnbuscar.onclick = function(e){
   var buscador = document.getElementById('buscador').value;
   buscador = buscador.toLowerCase();
 
@@ -1119,27 +1833,46 @@ function buscarResultados(longitud,buscSplit){
     break
     
     
-  }else if(buscSplit[i]=="accion"|| buscSplit[i]=="clima"|| buscSplit[i]=="calentamiento"|| buscSplit[i]=="contaminacion"){
+  }else if(buscSplit[i]=="accion"|| buscSplit[i]=="clima"|| buscSplit[i]=="calentamiento"|| buscSplit[i]=="contaminacion"|| buscSplit[i]=="climatico"){
+    clima();
+    break
     
+  }else if(buscSplit[i]=="submarina"|| buscSplit[i]=="acuatica"|| buscSplit[i]=="contaminacion del agua"){
+    submarina();
+    break
     
-  }else if(buscSplit[i]=="submarina"|| buscSplit[i]=="acuatica"){
-    
-    
-  }else if(buscSplit[i]=="terrestres"||  buscSplit[i]=="ecosistemas"){
-    
+  }else if(buscSplit[i]=="terrestres"||  buscSplit[i]=="ecosistemas"||  buscSplit[i]=="terrestre"){
+    terrestres();
+    break
     
   }else if(buscSplit[i]=="paz"|| buscSplit[i]=="justicia"|| buscSplit[i]=="instituciones"){
-    
+    paz();
+    break
     
   }else if(buscSplit[i]=="alianzas"){
-    guatemala();
-    
+    alianzas();
+    break
   }else if(buscSplit[i]=="desnutricion" || buscSplit[i]=="desnuticion"){
-    guatemala();
-    
+    desnutricion();
+    break
   }else if(buscSplit[i]=="guatemala"){
 
     guatemala();
+    break
+
+  }else if(buscSplit[i]=="tecnologia"){
+
+    tecnologia();
+    break
+
+  }else if(buscSplit[i]=="diseno"){
+
+    diseño();
+    break
+
+  }else if(buscSplit[i]=="valores"){
+
+    valores();
     break
 
   }else {error404()}
@@ -1166,10 +1899,6 @@ function mostrarResultados(){
 
   libro5.style.height = '200px';
   libro5.style.visibility = 'visible';
-
-  var prefinal = document.getElementById('result');
-  prefinal.style.height = '50px';
-  prefinal.style.visibility = 'visible';
   
 }
 
@@ -1223,3 +1952,22 @@ function limpiarResultados(){
   prefinal.style.height = '0px';
   prefinal.style.visibility = 'hidden';
 }
+function abrir(){
+
+  var categorias = document.getElementById('categorias');
+ // categorias.style.height = '100px';
+  categorias.style.visibility = 'visible';
+
+  
+}
+function cerrar(){
+
+  var categorias = document.getElementById('categorias');
+ // categorias.style.height = '100px';
+  categorias.style.visibility = 'hidden';
+  console.log("FELIZ DIA DEL NIÑO!")
+
+  
+}
+
+window.onkeydown = presion_enter;
