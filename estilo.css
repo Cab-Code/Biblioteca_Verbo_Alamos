@@ -47,23 +47,39 @@ body{
 	margin-right:10px;
 	
 	
-}.iniciarSesion:hover{
+}.maxwell:hover{
 	
 	background-color:#3D7BE5;
 }
 .botonMenu{
 	background-color:#5CC226;
 	height:60px;
-	width:60px;
+	width:110px;
 	color:white;
 	border-radius:0px;
 	border: 1px #5CC226 solid;
+	font-size: 20px;
 }
 .botonMenu:hover{
 	
 	background-color:#6DE42E;
 }
-
+.categorias{
+	z-index: 4;
+	background-color: #5CC226;
+	color: white;
+	height:1564px;
+	width:200px;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding:30px;
+}
+.opciones{
+	margin-top:40px;
+}
 .busqueda{
 	background-color:#3877E3;
 	height:50px;
@@ -152,6 +168,7 @@ color: aliceblue;
 a{
 	color:black;
 	font-family: sans-serif;
+	text-decoration: none;
 }
 .extras{
 
@@ -165,3 +182,28 @@ img.imagen{
 	margin: 20px;
 	border-radius: 7px;
   }
+
+.opciones:hover{
+	background-color: #3d8019;
+
+}
+.maxwell.a{
+	color: white;
+
+}
+.maxwell{
+
+	margin:10px;
+	margin-right:20px;
+	border-radius:5px;
+	cursor:hand;
+	outline: none;
+	background-color:366DCB;
+	border: 1px #366DCB solid;
+	float:right;
+	color:white;
+	height: 40px;
+	width:120px;
+	font-size:17px;
+	margin-right:10px;
+}
