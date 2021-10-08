@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background-color: rgb(201, 205, 209);
+
+}
+.BarraPresentacion{
+	background-color: #2E64C0;
+	height:150px;
+	margin:0px;
+
+}
+.libro{
+	background-color:#fcfcfc;
+	height:200px;
+	border-radius: 7px 7px 7px 7px;
+	margin:10px;
+	width:100%;
+	float:left;
+
+}.librosDestacados{
+	width:90%;
+	position:center;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+
+
+	
+}
+.titulo_l{
+	padding-top:40px;
+	padding-bottom: 20px;
+}
+a{
+	color:black;
+	font-family: sans-serif;
+}
+.extras{
+
+	height: 40px;
+	color:#cfcfcf;
+
+}
+img.imagen{
+	width: 150px; height: 150px;
+	float: left;
+	margin: 20px;
+	border-radius: 7px;
+  }
+img.verbo{
+ height: 150px;
+	margin: 0px;
+	border-radius: 0px;
+  }
