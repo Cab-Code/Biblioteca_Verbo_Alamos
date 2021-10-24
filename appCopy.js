@@ -1,4 +1,3 @@
-
 // Estuardo Cabrera
 //<img src="image.png" class="imagen" id="imagen_l">
 
@@ -603,7 +602,7 @@ function energia(){
   linkl4.href ="http://biblioteca.usac.edu.gt/tesis/08/08_0917_EA.pdf"
 
   titulo_l5.innerText  = "LEY DE INCENTIVOS PARA EL DESARROLLO DE PROYECTOS DE ENERGÍA RENOVABLE ";
-  autor_l5.innerText  = "ELCONGRESO DELA REPÙBLICA DE GUATEMALA";
+  autor_l5.innerText  = "EL CONGRESO DELA REPÙBLICA DE GUATEMALA";
   anio_l5.innerText = "2003";
   linkl5.href ="https://www.cnee.gob.gt/pdf/marco-legal/LeydeIncentivosEnerg%C3%ADaRenovable2014.pdf"
 
@@ -817,7 +816,7 @@ function desigualdad(){
   anio_l2.innerText = "2013";
   linkl2.href ="https://core.ac.uk/download/pdf/328163793.pdf"
 
-  titulo_l3.innerText  = "ODS 10: Reducir la desigualdad en los países y entre ellosen América Latina y el Caribe1";
+  titulo_l3.innerText  = "ODS 10: Reducir la desigualdad en los países y entre ellos en América Latina y el Caribe";
   autor_l3.innerText  = "Programa de las Naciones Unidas Para el Desarrollo";
   anio_l3.innerText = "2020";
   linkl3.href ="https://www.cepal.org/sites/default/files/static/files/ods10_c1900797_web.pdf"
@@ -1756,8 +1755,7 @@ buscarResultados(longitud,buscSplit)
 function buscarResultados(longitud,buscSplit){
 
   
- 
-   
+ var encontrado = 0;
    
    for(var i = 0;i <= longitud; i++){
   console.log(i)
@@ -1766,79 +1764,88 @@ function buscarResultados(longitud,buscSplit){
   if(buscSplit[i]=="_cls"){
 
     limpiarResultados();
+    encontrado = 1;
     break
 
   }else if(longitud == 0){
-
+    
+     encontrado = 1;
     error404();
     break
 
   } if(buscSplit[i]=="ods"|| buscSplit[i]=="objetivos"|| buscSplit[i]=="oobjetivos"){
-
+ encontrado = 1;
     ODS();
     break
   }else if(buscSplit[i]=="pobreza"|| buscSplit[i]=="desarrollo"|| buscSplit[i]=="sostenible"){
 
     pobreza();
+     encontrado = 1;
     break
     
 
   }else if(buscSplit[i]=="salud"|| buscSplit[i]=="bienestar"){
 
     salud();
+     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="educacion"|| buscSplit[i]=="alfabetismo"|| buscSplit[i]=="analfabetismo"){
 
     educacion();
+     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="genero"|| buscSplit[i]=="igualdad"){
     
     genero();
+     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="agua"|| buscSplit[i]=="saniamiento"|| buscSplit[i]=="saneamiento" || buscSplit[i]=="agualimpia"){
-    
+     encontrado = 1;
     agua();
     break
     
   }else if(buscSplit[i]=="energia"|| buscSplit[i]=="renovables"|| buscSplit[i]=="energias"|| buscSplit[i]=="energias"){
-    
+     encontrado = 1;
     energia();
     break
     
   }else if(buscSplit[i]=="trabajo"|| buscSplit[i]=="desempleo"|| buscSplit[i]=="economico"){
-    
+     encontrado = 1;
     trabajo();
     break
     
   }else if(buscSplit[i]=="industria"|| buscSplit[i]=="inovacion"|| buscSplit[i]=="innovacion"|| buscSplit[i]=="industrializacion"){
-    
+     encontrado = 1;
     industria();
     break
 
   }else if(buscSplit[i]=="desigualdad"|| buscSplit[i]=="racismo"){
-    
+     encontrado = 1;
     desigualdad();
     break
     
   }else if(buscSplit[i]=="ciudades"|| buscSplit[i]=="comunidades"|| buscSplit[i]=="asentamientos"|| buscSplit[i]=="ciudad"){
-    
+     encontrado = 1;
     ciudades();
     break
 
   }else if(buscSplit[i]=="produccion"|| buscSplit[i]=="consumo"|| buscSplit[i]=="responsable"){
     produccion();
+     encontrado = 1;
     break
     
     
   }else if(buscSplit[i]=="accion"|| buscSplit[i]=="clima"|| buscSplit[i]=="calentamiento"|| buscSplit[i]=="contaminacion"|| buscSplit[i]=="climatico"){
     clima();
+     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="submarina"|| buscSplit[i]=="acuatica"|| buscSplit[i]=="contaminacion del agua"){
     submarina();
+     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="terrestres"||  buscSplit[i]=="ecosistemas"||  buscSplit[i]=="terrestre"){
@@ -1847,37 +1854,50 @@ function buscarResultados(longitud,buscSplit){
     
   }else if(buscSplit[i]=="paz"|| buscSplit[i]=="justicia"|| buscSplit[i]=="instituciones"){
     paz();
+     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="alianzas"){
     alianzas();
+     encontrado = 1;
     break
   }else if(buscSplit[i]=="desnutricion" || buscSplit[i]=="desnuticion"){
     desnutricion();
+     encontrado = 1;
     break
   }else if(buscSplit[i]=="guatemala"){
 
     guatemala();
+     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="tecnologia"){
 
     tecnologia();
+     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="diseno"){
 
     diseño();
+     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="valores"){
 
     valores();
+     encontrado = 1;
     break
 
-  }else {error404()}
+  }
   }
 }
+if(Encontrado==0){
+
+    error404();
+    break
+
+  }
 
 
 
