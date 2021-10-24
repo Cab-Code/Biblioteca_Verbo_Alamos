@@ -1888,7 +1888,7 @@ function buscarResultados(longitud,buscSplit){
 
   }
   }
-  if(encontrado == 0){error404()};
+  if(encotrado == 0){error404();}
   
 }
 
