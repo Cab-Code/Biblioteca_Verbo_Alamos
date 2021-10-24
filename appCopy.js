@@ -1761,49 +1761,50 @@ function buscarResultados(longitud,buscSplit){
    for(var i = 0;i <= longitud; i++){
   console.log(i)
 
+     var encotrado = 0;
   
   if(buscSplit[i]=="_cls"){
-
+  encotrado = 1;
     limpiarResultados();
     break
 
   }else if(longitud == 0){
-
+    encotrado = 1;
     error404();
     break
 
   } if(buscSplit[i]=="ods"|| buscSplit[i]=="objetivos"|| buscSplit[i]=="oobjetivos"){
-
+    encotrado = 1;
     ODS();
     break
   }else if(buscSplit[i]=="pobreza"|| buscSplit[i]=="desarrollo"|| buscSplit[i]=="sostenible"){
-
+    encotrado = 1;
     pobreza();
     break
     
 
   }else if(buscSplit[i]=="salud"|| buscSplit[i]=="bienestar"){
-
+    encotrado = 1;
     salud();
     break
     
   }else if(buscSplit[i]=="educacion"|| buscSplit[i]=="alfabetismo"|| buscSplit[i]=="analfabetismo"){
-
+    encotrado = 1;
     educacion();
     break
 
   }else if(buscSplit[i]=="genero"|| buscSplit[i]=="igualdad"){
-    
+    encotrado = 1;
     genero();
     break
     
   }else if(buscSplit[i]=="agua"|| buscSplit[i]=="saniamiento"|| buscSplit[i]=="saneamiento" || buscSplit[i]=="agualimpia"){
-    
+    encotrado = 1;
     agua();
     break
     
   }else if(buscSplit[i]=="energia"|| buscSplit[i]=="renovables"|| buscSplit[i]=="energias"|| buscSplit[i]=="energias"){
-    
+    encotrado = 1;
     energia();
     break
     
@@ -1813,69 +1814,82 @@ function buscarResultados(longitud,buscSplit){
     break
     
   }else if(buscSplit[i]=="industria"|| buscSplit[i]=="inovacion"|| buscSplit[i]=="innovacion"|| buscSplit[i]=="industrializacion"){
-    
+    encotrado = 1;
     industria();
     break
 
   }else if(buscSplit[i]=="desigualdad"|| buscSplit[i]=="racismo"){
-    
+    encotrado = 1;
     desigualdad();
     break
     
   }else if(buscSplit[i]=="ciudades"|| buscSplit[i]=="comunidades"|| buscSplit[i]=="asentamientos"|| buscSplit[i]=="ciudad"){
-    
+    encotrado = 1;
     ciudades();
     break
 
   }else if(buscSplit[i]=="produccion"|| buscSplit[i]=="consumo"|| buscSplit[i]=="responsable"){
     produccion();
+    encotrado = 1;
     break
     
     
   }else if(buscSplit[i]=="accion"|| buscSplit[i]=="clima"|| buscSplit[i]=="calentamiento"|| buscSplit[i]=="contaminacion"|| buscSplit[i]=="climatico"){
     clima();
+    encotrado = 1;
     break
     
   }else if(buscSplit[i]=="submarina"|| buscSplit[i]=="acuatica"|| buscSplit[i]=="contaminacion del agua"){
     submarina();
+    encotrado = 1;
     break
     
   }else if(buscSplit[i]=="terrestres"||  buscSplit[i]=="ecosistemas"||  buscSplit[i]=="terrestre"){
     terrestres();
+    encotrado = 1;
     break
     
   }else if(buscSplit[i]=="paz"|| buscSplit[i]=="justicia"|| buscSplit[i]=="instituciones"){
     paz();
+    encotrado = 1;
     break
     
   }else if(buscSplit[i]=="alianzas"){
     alianzas();
+    encotrado = 1;
     break
   }else if(buscSplit[i]=="desnutricion" || buscSplit[i]=="desnuticion"){
     desnutricion();
+    encotrado = 1;
     break
   }else if(buscSplit[i]=="guatemala"){
 
     guatemala();
+    encotrado = 1;
     break
 
   }else if(buscSplit[i]=="tecnologia"){
 
     tecnologia();
+    encotrado = 1;
     break
 
   }else if(buscSplit[i]=="diseno"){
 
     diseño();
+    encotrado = 1;
     break
 
   }else if(buscSplit[i]=="valores"){
 
     valores();
+    encotrado = 1;
     break
 
   }
   }
+  if(encontrado == 0);{error404()}
+  
 }
 
 
