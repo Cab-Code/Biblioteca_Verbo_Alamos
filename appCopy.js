@@ -1809,7 +1809,7 @@ function buscarResultados(longitud,buscSplit){
     break
     
   }else if(buscSplit[i]=="trabajo"|| buscSplit[i]=="desempleo"|| buscSplit[i]=="economico"){
-    
+    encotrado = 1;
     trabajo();
     break
     
