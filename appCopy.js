@@ -1755,7 +1755,8 @@ buscarResultados(longitud,buscSplit)
 function buscarResultados(longitud,buscSplit){
 
   
- var encontrado = 0;
+ 
+   
    
    for(var i = 0;i <= longitud; i++){
   console.log(i)
@@ -1764,88 +1765,79 @@ function buscarResultados(longitud,buscSplit){
   if(buscSplit[i]=="_cls"){
 
     limpiarResultados();
-    encontrado = 1;
     break
 
   }else if(longitud == 0){
-    
-     encontrado = 1;
+
     error404();
     break
 
   } if(buscSplit[i]=="ods"|| buscSplit[i]=="objetivos"|| buscSplit[i]=="oobjetivos"){
- encontrado = 1;
+
     ODS();
     break
   }else if(buscSplit[i]=="pobreza"|| buscSplit[i]=="desarrollo"|| buscSplit[i]=="sostenible"){
 
     pobreza();
-     encontrado = 1;
     break
     
 
   }else if(buscSplit[i]=="salud"|| buscSplit[i]=="bienestar"){
 
     salud();
-     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="educacion"|| buscSplit[i]=="alfabetismo"|| buscSplit[i]=="analfabetismo"){
 
     educacion();
-     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="genero"|| buscSplit[i]=="igualdad"){
     
     genero();
-     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="agua"|| buscSplit[i]=="saniamiento"|| buscSplit[i]=="saneamiento" || buscSplit[i]=="agualimpia"){
-     encontrado = 1;
+    
     agua();
     break
     
   }else if(buscSplit[i]=="energia"|| buscSplit[i]=="renovables"|| buscSplit[i]=="energias"|| buscSplit[i]=="energias"){
-     encontrado = 1;
+    
     energia();
     break
     
   }else if(buscSplit[i]=="trabajo"|| buscSplit[i]=="desempleo"|| buscSplit[i]=="economico"){
-     encontrado = 1;
+    
     trabajo();
     break
     
   }else if(buscSplit[i]=="industria"|| buscSplit[i]=="inovacion"|| buscSplit[i]=="innovacion"|| buscSplit[i]=="industrializacion"){
-     encontrado = 1;
+    
     industria();
     break
 
   }else if(buscSplit[i]=="desigualdad"|| buscSplit[i]=="racismo"){
-     encontrado = 1;
+    
     desigualdad();
     break
     
   }else if(buscSplit[i]=="ciudades"|| buscSplit[i]=="comunidades"|| buscSplit[i]=="asentamientos"|| buscSplit[i]=="ciudad"){
-     encontrado = 1;
+    
     ciudades();
     break
 
   }else if(buscSplit[i]=="produccion"|| buscSplit[i]=="consumo"|| buscSplit[i]=="responsable"){
     produccion();
-     encontrado = 1;
     break
     
     
   }else if(buscSplit[i]=="accion"|| buscSplit[i]=="clima"|| buscSplit[i]=="calentamiento"|| buscSplit[i]=="contaminacion"|| buscSplit[i]=="climatico"){
     clima();
-     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="submarina"|| buscSplit[i]=="acuatica"|| buscSplit[i]=="contaminacion del agua"){
     submarina();
-     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="terrestres"||  buscSplit[i]=="ecosistemas"||  buscSplit[i]=="terrestre"){
@@ -1854,50 +1846,37 @@ function buscarResultados(longitud,buscSplit){
     
   }else if(buscSplit[i]=="paz"|| buscSplit[i]=="justicia"|| buscSplit[i]=="instituciones"){
     paz();
-     encontrado = 1;
     break
     
   }else if(buscSplit[i]=="alianzas"){
     alianzas();
-     encontrado = 1;
     break
   }else if(buscSplit[i]=="desnutricion" || buscSplit[i]=="desnuticion"){
     desnutricion();
-     encontrado = 1;
     break
   }else if(buscSplit[i]=="guatemala"){
 
     guatemala();
-     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="tecnologia"){
 
     tecnologia();
-     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="diseno"){
 
     diseño();
-     encontrado = 1;
     break
 
   }else if(buscSplit[i]=="valores"){
 
     valores();
-     encontrado = 1;
     break
 
   }
   }
 }
-if(Encontrado==0){
-
-    error404();
-    break
-
-  }
 
 
 
