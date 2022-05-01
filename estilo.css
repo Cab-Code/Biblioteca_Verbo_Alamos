@@ -258,7 +258,7 @@ img.imagen{
 		visibility: hidden;
 		position: absolute;
 		width:60%;
-		height:65%;
+		height:100%;
 	
 		top:10vh;
 		left:20%;
@@ -267,7 +267,7 @@ img.imagen{
 	}
 	.buscar{
 
-		height:6vh;
+		height:9vh;
 		width:10vW;
 		font-size: 5vh;
 		margin:10px;
@@ -283,7 +283,7 @@ img.imagen{
 	
 	.buscador{
 	
-		height:5vh;
+		height:8vh;
 		border-radius:5px 0px 0px 5px;
 		width:30vw;
 	
@@ -310,7 +310,7 @@ img.imagen{
 
 
 
-@media screen and (min-device-width:800px){
+@media screen and (min-device-width:900px){
 	
 body{
 	margin:0px;
